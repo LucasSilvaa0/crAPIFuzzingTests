@@ -1,0 +1,39 @@
+# Dependências para testes de fuzzing do crAPI
+
+# Testing Framework
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-timeout>=2.1.0
+pytest-xdist>=3.3.1  # Para testes paralelos
+pytest-order>=1.1.0
+
+# HTTP Client
+requests>=2.31.0
+httpx>=0.24.0
+
+# Property-Based Testing
+hypothesis>=6.80.0
+
+# Fuzzing
+atheris>=2.2.0  # Python fuzzing from Google
+
+# JSON/Data Handling
+jsonschema>=4.19.0
+pydantic>=2.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+faker>=19.0.0  # Para gerar dados aleatórios
+pyyaml>=6.0
+
+# Logging & Reporting
+colorlog>=6.7.0
+pytest-html>=3.2.0  # Relatórios HTML
+
+# Performance
+pytest-benchmark>=4.0.0
+
+# Code Quality
+black>=23.9.0
+flake8>=6.0.0
+pylint>=2.17.0
